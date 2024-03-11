@@ -1,0 +1,19 @@
+header section{
+  width: 1024px;
+  margin: 0 auto;
+
+  justify-content: right;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header nav ul li a{
+  margin: 0 15px;
+  color: #3399cc;
+}

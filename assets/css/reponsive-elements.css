@@ -1,0 +1,227 @@
+@media(max-width: 1195px){
+  .conteiner{
+    width: 900px;
+  }
+
+  
+  .sobre-web-design{
+    margin-left: -90px;
+  }
+
+  .sobre-web-design article{
+    width: 700px;
+    margin-left: -25px;
+    margin-top: -20px;
+    line-height: 20px;
+    
+  }
+
+  .sobre-web-design figcaption img{
+    width: 650px;
+    margin-right: 40px;
+
+  }
+
+  header section{
+    margin: 10px 40px 10px -150px;
+  }
+
+}
+
+
+@media(max-width: 1024px){
+  .conteiner{
+    width: 850px;
+  }
+
+  .sobre-web-design{
+    margin-left: 20px;
+  }
+
+  .sobre-web-design figcaption img{
+    width: 550px;
+    margin-right: -40px;
+  }
+
+  header section{
+    margin: 10px 40px 10px -100px;
+  }
+
+}
+
+@media(max-width: 915px){
+
+  .conteiner{
+    width: 600px;
+  }
+
+  .row{
+    flex-direction: row;
+  }
+
+  header nav{
+    margin: 0 145px 0 75px;
+  }
+
+  .sobre-web-design article{
+    width: 100%;
+    margin: 10px 0 0px 0;
+    text-align: center;
+  }
+
+  .sobre-web-design article{
+    margin-left: -100px;
+    margin-right: 10px;
+  }
+
+  .sobre-web-design article p{
+    margin: 10px 0 10px 0;
+  }
+
+  .sobre-web-design figcaption img{
+    width: 550px;
+    margin: 30px 0 ;
+  }
+
+  footer .row{
+    flex-direction: row;
+    justify-content: start;
+    margin-left: -90px;
+  }
+
+  footer ul li a img{
+    width: 50px;
+    justify-content: space-between;
+  }
+  
+
+}
+
+@media(max-width: 768px){
+  .conteiner{
+    width: 900px;
+  }
+
+  .sobre-web-design figcaption img{
+    width: 640px;
+    margin-left: 50px;
+  }
+
+  header section{
+    margin: 10px 50px 10px 120px;
+  }
+
+  .sobre-web-design article{
+    width: 300px;
+    margin: 20px 30px 10px 30px;
+  }
+
+  footer .row{
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 103px;
+  }
+
+  footer ul li a img{
+    width: 50px;
+    margin: 0 15px 0 0px;
+  }
+
+  body{
+    background-size: 700px;
+  }
+
+}
+
+@media(max-width: 665px){
+  .conteiner{
+    width: 400px;
+  }
+
+  .sobre-web-design figcaption img{
+    width: 600px;
+    margin-left: 40px;
+  }
+
+  .sobre-web-design article{
+    width: 300px;
+    margin: 20px 70px 10px -100px;
+    line-height: 25px;
+  }
+
+  .sobre-web-design article p{
+    width: 400px;
+  }
+
+  header section{
+    margin: 0 0 0 10px;
+  }
+
+  footer .row{
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 30px;
+  }
+
+}
+
+@media(max-width: 450px){
+  .conteiner{
+    width: 400px;
+  }
+
+  .row{
+    flex-direction: column;
+  }
+
+  header nav{
+    background-color: #fff;
+    width: 300px;
+
+    padding: 10px 0px 20px;
+    box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.35);
+
+    border-radius: 10%;
+    margin: 0 0px 0 130px;
+  
+  }
+
+  header nav ul{
+    flex-direction: column;
+  }
+
+  header nav ul li{
+    margin: 10px 0 10px 0;
+  }
+
+  .row{
+    width: 500px;
+    justify-content: center;
+  }
+
+  .sobre-web-design figcaption img{
+    width: 600px;
+    /*margin: 20px 0 0 400px;*/
+  }
+
+  .sobre-web-design article{
+    margin: 0 55px 0 0;
+  }
+
+  .sobre-web-design article h1, h2{
+    margin: 0 0 0 77px;
+  }
+
+
+  .sobre-web-design article a{
+    margin: 0px 0 0 80px;
+  }
+
+
+  footer ul li a img{
+    width: 60px;
+    margin: 0 0 0 120px;
+    justify-content: space-evenly;
+  }
+
+}
